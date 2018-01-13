@@ -24,7 +24,7 @@ import android.support.v7.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     int PERMISSION_ALL = 1;
-    public static final String BASE_URL = "http://192.81.213.230/stkpush/sms.php";
+    public static final String BASE_URL = "http://localhost/sendsms";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
